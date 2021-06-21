@@ -4,14 +4,17 @@ package com.example.task01;
  * Класс точки на плоскости
  */
 public class Point {
+    // Поля
     private int x;
     private int y;
 
+    // Конструктор
     public Point(int x, int y){
         this.x = x;
         this.y = y;
     }
 
+    // Методы
     void flip() {
         int t = x;
         x = -y;
